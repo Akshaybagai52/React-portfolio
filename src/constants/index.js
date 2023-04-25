@@ -159,12 +159,10 @@ import {
       company_name: "K.K Polypipe",
       icon: meta,
       iconBg: "#383E56",
-      date: "Dec 2020 - Jun 2022",
+      date: "Nov 2020 - Jun 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Reviewed and analyzed contracts to resolve billing issues with vendors and carriers.",
+        "Verifed patient insurance coverage, created fnancial plan according to treatment schedules for collections, and communicated between patient and billing company regarding health insurance."
       ],
     },
   ];
