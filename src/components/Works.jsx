@@ -22,7 +22,7 @@ image, source_code_link}) => {
           <div className="relative w-full h-[230px]">
             <img src={image} alt={name}
              className="w-fulll h-full object-cover rounded-2xl" />
-              
+               
               <div className="absolute inset-0 flex justify-end
                m-3 card-img_hover ">
                 <div onClick={() => window.open
