@@ -213,8 +213,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: colorchanging,
+      source_code_link: "https://github.com/Akshaybagai52/3D-AI-Web",
     },
     {
       name: "Image Recognition",
@@ -234,11 +234,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: tensorflow,
+      source_code_link: "https://akshaybagai52.github.io/tensorflow.js-first/",
     },
     {
-      name: "Fashion Website",
+      name: "Crown Clothing",
       description:
         "A comprehensive Ecommerce website in which user can add products to cart, buy, and also can pay to purchase products using online payment method",
       tags: [
@@ -255,8 +255,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: crown,
+      source_code_link: "https://csb-1pusw4.netlify.app/",
     },
   ];
   
