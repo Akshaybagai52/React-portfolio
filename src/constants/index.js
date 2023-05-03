@@ -196,16 +196,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3-D website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A website in which user can create a t-shirt and change it's color, logo and full pattern in realtime ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react-three-fiber",
           color: "green-text-gradient",
         },
         {
@@ -217,20 +217,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Image Recognition",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that require front camera permission to identify the person, things, animals and upto 80 species it can identify and tell in realtime in your web app",
       tags: [
         {
-          name: "react",
+          name: "tensorflow.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "javaScript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Css",
           color: "pink-text-gradient",
         },
       ],
@@ -238,20 +238,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Fashion Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive Ecommerce website in which user can add products to cart, buy, and also can pay to purchase products using online payment method",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "styled component",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
