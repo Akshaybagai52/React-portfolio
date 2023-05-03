@@ -213,7 +213,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: colorchanging,
+      image: carrent,
       source_code_link: "https://github.com/Akshaybagai52/3D-AI-Web",
     },
     {
@@ -234,7 +234,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tensorflow,
+      image: jobit,
       source_code_link: "https://akshaybagai52.github.io/tensorflow.js-first/",
     },
     {
@@ -255,7 +255,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: crown,
+      image: tripguide,
       source_code_link: "https://csb-1pusw4.netlify.app/",
     },
   ];
