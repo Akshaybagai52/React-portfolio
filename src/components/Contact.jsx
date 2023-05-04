@@ -5,9 +5,7 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-// template_5nice9l
-// service_2hbto2k
-// 4fRVCRpe70cjx7Myt
+
 const Contact = () => {
   const formRef = useRef()
   const [form, setForm] = useState({
@@ -16,8 +14,39 @@ const Contact = () => {
     message: ''
   })
   const [loading, setLoading] = useState(false)
-  const handleChange = (e) => {}
-  const handleSubmit =  (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({
+    ...form,
+      [name]: value
+    })
+  }
+  const handleSubmit =  (e) => {
+    e.preventDefault()
+    setLoading(true)
+    emailjs.send('service_2hbto2k', 'template_5nice9l', {
+      from_name: form.name,
+      to_name: "Akshay",
+      from_email: form.email,
+      to_email: "akshaybagai52@gmail.com",
+      message: form.message
+    },
+     '4fRVCRpe70cjx7Myt')
+     .then(() => {
+      setLoading(false);
+      alert("Thank you. I will get back to you as soon as possible");
+
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      })
+     },
+     (error) => {
+      setLoading(false);
+      alert("Something Went Wrong");
+    })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse
