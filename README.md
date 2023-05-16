@@ -21,3 +21,5 @@ Contributions to this project are welcome. If you have any suggestions, please f
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+Deployed Link:- akshaybagai.netlify.app
