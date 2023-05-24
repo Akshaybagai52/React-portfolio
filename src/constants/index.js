@@ -226,7 +226,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/Akshaybagai52/3D-AI-Web",
+      source_code_link: "https://splendorous-dusk-b878b7.netlify.app/",
     },
     {
       name: "Image Recognition",
