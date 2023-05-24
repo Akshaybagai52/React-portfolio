@@ -122,10 +122,9 @@ import {
       iconBg: "#383E56",
       date: "Dec 2019 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Successfully contributed as a full stack developer for over 3 years, delivering end-to-end solutions with expertise in front-end technologies (HTML, CSS, JavaScript, React, Redux) and back-end technologies (Node.js, Express, MongoDB).",
+        "Proven track record of building scalable and high-performance web applications, implementing database systems (MongoDB), and leveraging state management (Redux) to create seamless user interfaces.",
+        "Demonstrated proficiency in PHP and WordPress for developing dynamic and customizable websites, while also showcasing proficiency in three.js for crafting captivating 3D experiences.",
       ],
     },
     {
@@ -156,10 +155,10 @@ import {
     // },
     {
       title: "Web Developer Intern",
-      company_name: "Full Creative",
+      company_name: "IT Company",
       icon: shopify,
       iconBg: "#E6DEDD",
-      date: "Jul 2022 - Oct 2022",
+      date: "Apr 2018 - Jun 2018",
       points: [
         "Developing and maintaining web applications using HTML, CSS, javaScript and other related technologies.",
         "Directed design, writing, and production of page content to fulfill project demands and satisfy customer needs.",
@@ -167,17 +166,17 @@ import {
         "Build HTML Email templates for company's promotional emails and also information emails to customer",
       ],
     },
-    {
-      title: "Invoice Processor",
-      company_name: "K.K Polypipe",
-      icon: meta,
-      iconBg: "#383E56",
-      date: "Nov 2020 - Jun 2022",
-      points: [
-        "Reviewed and analyzed contracts to resolve billing issues with vendors and carriers.",
-        "Verifed patient insurance coverage, created fnancial plan according to treatment schedules for collections, and communicated between patient and billing company regarding health insurance."
-      ],
-    },
+    // {
+    //   title: "Invoice Processor",
+    //   company_name: "K.K Polypipe",
+    //   icon: meta,
+    //   iconBg: "#383E56",
+    //   date: "Nov 2020 - Jun 2022",
+    //   points: [
+    //     "Reviewed and analyzed contracts to resolve billing issues with vendors and carriers.",
+    //     "Verifed patient insurance coverage, created fnancial plan according to treatment schedules for collections, and communicated between patient and billing company regarding health insurance."
+    //   ],
+    // },
   ];
   
   const testimonials = [

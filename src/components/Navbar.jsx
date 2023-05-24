@@ -31,7 +31,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }} >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Akshay &nbsp;<span className='sm:block hidden'>|&nbsp; Bagai</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Lovely &nbsp;<span className='sm:block hidden'>|&nbsp; Bagai</span></p>
 
         </Link>
 
@@ -67,7 +67,7 @@ const Navbar = () => {
                 </li>
                 
               ))}
-              <li><a href='https://drive.google.com/file/d/1JBl-CJpZvaCiH-sahmLzKAyDFs_LgNgb/view?usp=share_link' target='_blank' className='text-secondary font-poppins text-[16px] font-medium cursor-pointer'>Resume</a></li>
+              {/* <li><a href='https://drive.google.com/file/d/1JBl-CJpZvaCiH-sahmLzKAyDFs_LgNgb/view?usp=share_link' target='_blank' className='text-secondary font-poppins text-[16px] font-medium cursor-pointer'>Resume</a></li> */}
 
             </ul>
           </div>
