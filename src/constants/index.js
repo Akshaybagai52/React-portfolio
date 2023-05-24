@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Full Stack Developer",
       icon: creator,
     },
   ];
@@ -72,10 +72,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -108,19 +108,32 @@ import {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    {
+      name: "docker",
+      icon: docker,
+    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Baseline IT",
+      title: "Full Stack Developer",
+      company_name: "Net Solutions",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "Dec 2022 - Present",
+      date: "Dec 2019 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Reactjs Developer",
+      company_name: "Softhub Technologies",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "July 2018 - Nov 2019",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

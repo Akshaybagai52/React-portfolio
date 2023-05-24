@@ -104,11 +104,11 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
 
            </button>
-           <div className='flex justify-between'>
-           <a href='https://github.com/Akshaybagai52' target='_blank' className='w-[50px] h-[50px]'><img src="https://i.ibb.co/NFHDHB9/github-4.png" alt="github-4" border="0" /></a>
-           <a href='https://www.linkedin.com/in/akshay-bagai52/' target='_blank' className='w-[50px] h-[50px]'><img src="https://i.ibb.co/h7X5Gcr/linkedin-1.png" alt="linkedin-1" border="0" /></a>
+            {/* <div className='flex justify-between'>
+            <a href='https://github.com/Akshaybagai52' target='_blank' className='w-[50px] h-[50px]'><img src="https://i.ibb.co/NFHDHB9/github-4.png" alt="github-4" border="0" /></a>
+            <a href='https://www.linkedin.com/in/akshay-bagai52/' target='_blank' className='w-[50px] h-[50px]'><img src="https://i.ibb.co/h7X5Gcr/linkedin-1.png" alt="linkedin-1" border="0" /></a>
 
-           </div>
+            </div> */}
 
            </div>
            
