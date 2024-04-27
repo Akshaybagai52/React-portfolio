@@ -19,10 +19,13 @@ import {
     starbucks,
     tesla,
     shopify,
+    lexical,
     carrent,
     jobit,
     tripguide,
     threejs,
+    json,
+    fivestar
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +45,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
-    },
-    {
-      title: "Reactjs Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Full Stack Developer",
+      title: "Open Source Contributor",
+      icon: mobile,
+    },
+    {
+      title: "Prompt Engineer",
       icon: creator,
     },
   ];
@@ -115,24 +118,24 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Full Stack Developer",
-      company_name: "Net Solutions",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "Dec 2019 - Present",
-      points: [
-        "Successfully contributed as a full stack developer for over 3 years, delivering end-to-end solutions with expertise in front-end technologies (HTML, CSS, JavaScript, React, Redux) and back-end technologies (Node.js, Express, MongoDB).",
-        "Proven track record of building scalable and high-performance web applications, implementing database systems (MongoDB), and leveraging state management (Redux) to create seamless user interfaces.",
-        "Demonstrated proficiency in PHP and WordPress for developing dynamic and customizable websites, while also showcasing proficiency in three.js for crafting captivating 3D experiences.",
-      ],
-    },
+    // {
+    //   title: "Full Stack Developer",
+    //   company_name: "Net Solutions",
+    //   icon: starbucks,
+    //   iconBg: "#383E56",
+    //   date: "Dec 2019 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",      ],
+    // },
     {
       title: "Reactjs Developer",
-      company_name: "Softhub Technologies",
+      company_name: "Baseline IT Development",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "July 2018 - Nov 2019",
+      date: "Oct 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,10 +158,10 @@ import {
     // },
     {
       title: "Web Developer Intern",
-      company_name: "IT Company",
+      company_name: "Full Creative",
       icon: shopify,
       iconBg: "#E6DEDD",
-      date: "Apr 2018 - Jun 2018",
+      date: "Jul 2022 - Oct 2022",
       points: [
         "Developing and maintaining web applications using HTML, CSS, javaScript and other related technologies.",
         "Directed design, writing, and production of page content to fulfill project demands and satisfy customer needs.",
@@ -166,17 +169,17 @@ import {
         "Build HTML Email templates for company's promotional emails and also information emails to customer",
       ],
     },
-    // {
-    //   title: "Invoice Processor",
-    //   company_name: "K.K Polypipe",
-    //   icon: meta,
-    //   iconBg: "#383E56",
-    //   date: "Nov 2020 - Jun 2022",
-    //   points: [
-    //     "Reviewed and analyzed contracts to resolve billing issues with vendors and carriers.",
-    //     "Verifed patient insurance coverage, created fnancial plan according to treatment schedules for collections, and communicated between patient and billing company regarding health insurance."
-    //   ],
-    // },
+    {
+      title: "Invoice Processor",
+      company_name: "K.K Polypipe",
+      icon: meta,
+      iconBg: "#383E56",
+      date: "Nov 2020 - Jun 2022",
+      points: [
+        "Reviewed and analyzed contracts to resolve billing issues with vendors and carriers.",
+        "Verifed patient insurance coverage, created fnancial plan according to treatment schedules for collections, and communicated between patient and billing company regarding health insurance."
+      ],
+    },
   ];
   
   const testimonials = [
@@ -208,6 +211,73 @@ import {
   
   const projects = [
     {
+      name: "JSON Schema",
+      description:
+        "While JSON is probably the most popular format for exchanging data, JSON Schema is the vocabulary that enables JSON data consistency, validity, and interoperability at scale.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: json,
+      source_code_link: "https://json-schema.org/",
+    },
+    {
+      name: "Five Star Access",
+      description:
+        "A mobile app built with React Native for logistic company employees for their respective purpose",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Native Paper",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fivestar,
+      source_code_link: 'https://fivestaraccess.com.au/',
+    },
+    {
+      name: "Lexical Customization",
+      description:
+        "A text editor embedded in website where user can get answer from ai in the text editor and apply formatting",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Deepgram",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Monorepo",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lexical,
+      source_code_link: "https://playground.lexical.dev/",
+    },
+    {
       name: "3-D website",
       description:
         "A website in which user can create a t-shirt and change it's color, logo and full pattern in realtime ",
@@ -226,7 +296,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://splendorous-dusk-b878b7.netlify.app/",
+      source_code_link: "github.com/Akshaybagai52/3D-AI-Web/",
     },
     {
       name: "Image Recognition",
