@@ -137,9 +137,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2024 - Present",
     points: [
-      "Spearheaded the migration of 10-14 healthcare projectrepositories fromReact 15/17 to React 18, integrating the latest features while optimizing performance by 25% across key components.",
-      "Ensured over 90% test coverage for all screens using Jest and React Testing Library (RTL), and successfully transitioned from Moment.js to Luxon and from Formik to React Hook Form forimproved maintainability.",
-      "Built and maintained a shared component library,replacing React-Redux with Redux Toolkit, enabling a 40% reduction in redundant code and streamlining UI consistency across allrepositories.",
+      "Spearheaded the migration of 10-14 healthcare projectrepositories from React 15/17 to React 18, integrating the latest features while optimizing performance by 25% across key components.",
+      "Ensured over 90% test coverage for all screens using Jest and React Testing Library (RTL), and successfully transitioned from Moment.js to Luxon and from formzy to React Hook Form for improved maintainability.",
+      "Built and maintained a shared component library, replacing React-Redux with Redux Toolkit, enabling a 40% reduction in redundant code and streamlining UI consistency across all repositories.",
     ],
   },
 
